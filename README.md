@@ -1,5 +1,5 @@
 # Todo App
-[To do App Screenshot](https://www.dropbox.com/s/muiqhvv2hokz6zj/todo-app.png)
+![To do App Screenshot](https://www.dropbox.com/s/muiqhvv2hokz6zj/todo-app.png)
 
 ## Build Setup
 
