@@ -1,0 +1,21 @@
+{
+  "name": "TO-DO-APP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "vanilla-picker": "^2.10.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sass": "^4.0.2"
+  }
+}

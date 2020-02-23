@@ -1,0 +1,130 @@
+.navbar a {
+  color: white;
+  padding-left: 10px; }
+  .navbar a:hover {
+    color: white; }
+
+.container {
+  justify-content: flex-start !important; }
+  .container input[type="checkbox"] {
+    opacity: 0; }
+  .container svg {
+    fill: white; }
+
+.done-text {
+  text-decoration: line-through; }
+
+.checkmark {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  align-items: center;
+  border-radius: 10px;
+  padding: 7px;
+  color: #61677c;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 4px; }
+
+[class^="fa-check"]:before,
+[class*=" fa-check"]:before {
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: -0.3rem;
+  /* margin-bottom: .2rem; */
+  margin-top: -1.7rem;
+  /* position: relative; */
+  position: absolute; }
+
+button.btn.btn-secondary.dropdown-toggle {
+  background-color: transparent;
+  color: black;
+  border: none; }
+
+.hidden {
+  /* 
+  * have to use `display:none` because `visibility: hidden;` 
+  *  shows element properties > width, heigh
+  */
+  display: none !important; }
+
+.card-header {
+  border: none !important;
+  cursor: pointer; }
+  .card-header input[type="text"] {
+    border: none;
+    background: transparent !important;
+    cursor: pointer; }
+    .card-header input[type="text"]:focus {
+      outline: none; }
+  .card-header .color-picker {
+    position: absolute;
+    display: inline-flex;
+    right: 100px;
+    top: 14px;
+    width: 32px;
+    height: 32px; }
+  .card-header button.collapse-expand.btn-outline-dark.btn {
+    font-family: "fontawesome";
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    right: -112px;
+    position: relative;
+    line-height: 17px; }
+    .card-header button.collapse-expand.btn-outline-dark.btn.cl:after {
+      content: "\f096" !important; }
+    .card-header button.collapse-expand.btn-outline-dark.btn:after {
+      content: "\f068";
+      display: inline-block;
+      margin-left: -4px; }
+  .card-header .dropdown-menu {
+    background-color: #f7f7f7; }
+    .card-header .dropdown-menu span {
+      padding: 0.3em; }
+      .card-header .dropdown-menu span a {
+        color: black; }
+
+.task-settings {
+  right: -200px; }
+
+.todo-items-item .container {
+  padding-left: 0 !important; }
+
+.todo-items-item .checkmark .fa-check {
+  opacity: 0.3; }
+
+.todo-items-item.done .checkmark .fa-check {
+  opacity: 1; }
+
+.card {
+  width: 28rem;
+  border: none !important; }
+  .card ul {
+    background-color: #e9ecef; }
+  .card li.todo-items-item.list-group-item {
+    display: inherit;
+    background-color: transparent; }
+
+.btn-outline-dark {
+  border: none !important;
+  cursor: pointer; }
+
+li.todo-items-item.list-group-item.done {
+  background-color: #90ee90 !important; }
