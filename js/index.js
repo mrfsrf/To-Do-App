@@ -126,9 +126,9 @@ function addNew() {
       ul.parentNode.prepend(taskGroupHeader);
       // taskGroupHeader.appendChild(taskGroupSettings);
       taskGroupHeader.appendChild(colorPicker);
+      taskGroupHeader.appendChild(collapseExpand);
       taskGroupHeader.appendChild(taskGroupSettingsMenu);
       taskGroupHeader.querySelector('.dropdown-menu').appendChild(exportTodoList);
-      taskGroupHeader.appendChild(collapseExpand);
     }
   }
   inputElement.value = "";

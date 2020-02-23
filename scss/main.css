@@ -55,7 +55,8 @@
 button.btn.btn-secondary.dropdown-toggle {
   background-color: transparent;
   color: black;
-  border: none; }
+  border: none;
+  margin-top: -2px; }
 
 .hidden {
   /* 
@@ -80,8 +81,7 @@ button.btn.btn-secondary.dropdown-toggle {
   .card-header .color-picker {
     position: absolute;
     display: inline-flex;
-    right: 100px;
-    top: 14px;
+    right: 90px;
     width: 32px;
     height: 32px; }
   .card-header button.collapse-expand.btn-outline-dark.btn {
@@ -89,15 +89,15 @@ button.btn.btn-secondary.dropdown-toggle {
     width: 32px;
     height: 32px;
     display: inline-flex;
-    right: -112px;
-    position: relative;
+    right: 55px;
+    position: absolute;
     line-height: 17px; }
     .card-header button.collapse-expand.btn-outline-dark.btn.cl:after {
       content: "\f096" !important; }
     .card-header button.collapse-expand.btn-outline-dark.btn:after {
       content: "\f068";
       display: inline-block;
-      margin-left: -4px; }
+      margin-left: -2px; }
   .card-header .dropdown-menu {
     background-color: #f7f7f7; }
     .card-header .dropdown-menu span {
@@ -106,7 +106,8 @@ button.btn.btn-secondary.dropdown-toggle {
         color: black; }
 
 .task-settings {
-  right: -200px; }
+  right: 0px;
+  position: absolute !important; }
 
 .todo-items-item .container {
   padding-left: 0 !important; }

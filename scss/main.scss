@@ -65,6 +65,8 @@ button.btn.btn-secondary.dropdown-toggle {
   background-color: transparent;
   color: black;
   border: none;
+  // weired adjustemnt
+  margin-top: -2px;
 }
 .hidden {
   /* 
@@ -92,8 +94,7 @@ button.btn.btn-secondary.dropdown-toggle {
   .color-picker {
     position: absolute;
     display: inline-flex;
-    right: 100px;
-    top: 14px;
+    right: 90px;
     width: 32px;
     height: 32px;
   }
@@ -103,8 +104,8 @@ button.btn.btn-secondary.dropdown-toggle {
     width: 32px;
     height: 32px;
     display: inline-flex;
-    right: -112px;
-    position: relative;
+    right: 55px;    
+    position: absolute;
     line-height: 17px;
 
     &.cl:after {
@@ -114,7 +115,7 @@ button.btn.btn-secondary.dropdown-toggle {
     &:after {
       content: "\f068";
       display: inline-block;
-      margin-left: -4px;
+      margin-left: -2px;
     }
   }
 
@@ -131,7 +132,8 @@ button.btn.btn-secondary.dropdown-toggle {
 }
 
 .task-settings {
-  right: -200px;
+  right: 0px;
+  position: absolute!important;
 }
 
 .todo-items-item {
