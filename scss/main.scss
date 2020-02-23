@@ -5,7 +5,7 @@
     color: white;
     padding-left: 10px;
     &:hover {
-      color:white;
+      color: white;
     }
   }
 }
@@ -75,12 +75,15 @@ button.btn.btn-secondary.dropdown-toggle {
 }
 .card-header {
   border: none !important;
-  cursor: pointer;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 
   input[type="text"] {
     border: none;
     background: transparent !important;
-    cursor: pointer;
+    cursor: text;
 
     &:focus {
       outline: none;
@@ -167,4 +170,3 @@ button.btn.btn-secondary.dropdown-toggle {
 li.todo-items-item.list-group-item.done {
   background-color: $lightgreen !important;
 }
-

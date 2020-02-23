@@ -66,11 +66,15 @@ button.btn.btn-secondary.dropdown-toggle {
 
 .card-header {
   border: none !important;
-  cursor: pointer; }
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab; }
   .card-header input[type="text"] {
     border: none;
     background: transparent !important;
-    cursor: pointer; }
+    cursor: text; }
     .card-header input[type="text"]:focus {
       outline: none; }
   .card-header .color-picker {
