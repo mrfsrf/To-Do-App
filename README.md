@@ -12,9 +12,9 @@ $ npm run gulp
 $ gulp watch
 ```
 ## Still To do
-[] - convert to Object to enable adding multiple lists
-[] - check for bugs
-[] - profit!
+- [ ] convert to Object to enable adding multiple lists
+- [ ] check for bugs
+- [ ] profit!
 
 
 
